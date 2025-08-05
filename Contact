@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | iEducate</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar background" role="navigation" aria-label="Main Navigation">
+        <div class="logo"><img src="img/bg.jpg" alt="iEducate Logo"></div>
+        <ul class="nav-list">
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           
+        </ul>
+        <div class="rightNav">
+            <input type="text" id="Search" placeholder="Search...">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>About iEducate</h2>
+            <p>
+                At <strong>iEducate</strong>, our vision is to reshape the future of education by delivering high-quality, accessible, and interactive online learning experiences. We are committed to leveraging modern web technologies and innovative teaching strategies to help students and professionals succeed in a rapidly evolving world.
+            </p>
+
+            <p>
+                In a time where learning must be flexible and adaptable, we offer an education platform that prioritizes accessibility, engagement, and meaningful outcomes. From school students preparing for exams to professionals enhancing their skills, our mission is to support all learners with resources that are smart, intuitive, and personalized.
+            </p>
+
+            <h3>What We Offer</h3>
+            <ul>
+                <li>Interactive courses with multimedia content</li>
+                <li>Responsive design for learning on any device</li>
+                <li>AI-powered learning recommendations</li>
+                <li>Community forums and peer collaboration</li>
+                <li>Real-time progress tracking and feedback</li>
+            </ul>
+
+            <h3>Our Core Values</h3>
+            <ul>
+                <li><strong>Inclusivity:</strong> Learning for everyone, everywhere</li>
+                <li><strong>Innovation:</strong> Using modern tech to enhance education</li>
+                <li><strong>Integrity:</strong> Maintaining transparency and trust</li>
+                <li><strong>Impact:</strong> Creating real change through knowledge</li>
+            </ul>
+
+            <h3>Meet the Team</h3>
+            <div class="team">
+                <img src="img/team.jpg" alt="Our Team" class="team-image">
+                <p>
+                    Our diverse and talented team of educators, developers, and designers work collaboratively to build educational solutions that are both functional and inspiring. We combine expertise from different fields to create a seamless learning experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer background">
+        <p style="text-align:center; color:white;">&copy; 2025 iEducate. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
