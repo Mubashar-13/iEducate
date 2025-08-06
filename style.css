@@ -147,6 +147,7 @@
     padding: 16px 0;
 }
 
+
 .sectionSubTag{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -156,3 +157,10 @@
     border-radius: 26px;
     margin-top: 19px;
 }
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+
