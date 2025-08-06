@@ -130,7 +130,7 @@
     vertical-align: middle;
 }
 .section{
-    height: 500px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -142,6 +142,9 @@
 }
 .paras{
     padding: 80 80px;
+}
+.sectionTag{
+    padding: 16px 0;
 }
 
 
