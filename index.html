@@ -1,23 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE tml>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="" >
     <title>iEducate - Transforming Online Education</title>
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="img/bg.jpg" alt="Logo"></div>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Contact">Contact Us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
         <div class="rightNav">
-            <input type="text" name="Search" id="Search">
+            <input type="text" name="Search" id="Search" placeholder="Type your Thoughts">
             <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
     <section class="background firstSection">
@@ -44,7 +50,7 @@
         </div>
 
     </section>
-    <section class="section">
+    <section class="section section-left" id="about">
         <div class="paras"></div>
         <p class="sectionTag text-big">The End of Artificial World is Here</p>
         <p class="sectionSubTag">Artificial intelligence (AI) presents exciting opportunities to improve people’s lives, including by making our public services better. AI will support with the delivery of the Plan for Change and our opportunity mission.
@@ -65,14 +71,12 @@
             </div>
 
     </section>
-    <section class="Left">
+    <section class="section" id="services">
         <div class="paras"></div>
         <p class="sectionTag text-big">Transforming Authentic Knowledge</p>
         <p class="sectionSubTag">Authentic instruction will take on a much different form than traditional teaching methods. In the traditional classroom, students take a passive role in the learning process. Knowledge is considered to be a collection of facts and procedures that are transmitted from the teacher to the student. In this view, the goal of education is to possess a large collection of these facts and procedures.[3] Authentic learning, on the other hand, takes a constructivist approach, in which learning is an active process. Teachers provide opportunities for students to construct their own knowledge through engaging in self-directed inquiry, problem solving, critical thinking, and reflections in real-world contexts. This knowledge construction is heavily influenced by the student's prior knowledge and experiences, as well as by the characteristics that shape the learning environment, such as values, expectations, rewards, and sanctions. Education is more student-centered. Students no longer simply memorize facts in abstract and artificial situations, but they experience and apply information in ways that are grounded in reality.</p>
             </div>
-            <div class="thumbnail">
-                <img src="img/bg.jpg" alt="Laptop Imagination" class="imgFluid">
-            </div>
+            
 
     </section>
     <section class="section">
@@ -85,6 +89,23 @@
             </div>
 
     </section>
+    <section class="contact" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" class="form-input" type="Phone" name="Phone" id="name" placeholder="Enter your Phone">
+            <input class="form-input" class="form-input" type="email" name="email" id="name" placeholder="Enter your email">
+                <textarea class="form-input" name="name" id="name" cols="30" rows="10" placeholder="Elaborate your concerns..."></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer>
+        <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2028 www.iEducate.com - All Rights Reserved 
+        </p>
+    </footer>
+    <script src="Javascript/resp.js"></script>
     
 </body>
 </html>
