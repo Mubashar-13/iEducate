@@ -180,6 +180,7 @@ html{
     padding: 80 80px;
 }
 
+
 .sectionSubTag{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -189,6 +190,7 @@ html{
     border-radius: 26px;
     margin-top: 19px;
 }
+<<<<<<< HEAD
 .contact{
     background: burlywood;
     height: 650px;
@@ -278,3 +280,12 @@ html{
 
 
 }
+=======
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+
+>>>>>>> c76cfc90f56aea547902f19f13a2362eb2f1c7e2
