@@ -143,6 +143,8 @@ html{
     
 }
 .section{
+    height: 350px;
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -156,6 +158,10 @@ html{
 .paras{
     padding: 0 65px;
 }
+.sectionTag{
+    padding: 16px 0;
+}
+
 .sectionTag{
     padding: 16px 0;
 }
@@ -262,4 +268,7 @@ html{
     }
 
 
+
 }
+
+
